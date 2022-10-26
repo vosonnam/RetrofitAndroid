@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SinhVienImage</string>
+    <string name="txt_lthongtin">Thông tin sinh viên</string>
+    <string name="txt_lmasv">Mã sinh viên:</string>
+    <string name="txt_ltensv">Tên Sinh viên:</string>
+    <string name="txt_lgioitinh">Giới tính:</string>
+    <string name="txt_llop">Lớp:</string>
+    <string name="txt_btnluu">Lưu</string>
+    <string name="txt_btnlamlai">Làm lại</string>
+    <string name="txt_ldangnhap">Thông tin đăng nhập</string>
+    <string name="txt_luname">USERNAME: </string>
+    <string name="txt_lpass">PASSWORD: </string>
+    <string name="txt_lcfpass">CONFIRM: </string>
+    <string name="txt_btnsignup">Sign Up</string>
+    <string name="txt_ttdangky">Đăng ký tài khoản mới</string>
+    <string name="txt_ttmsg">Thông Báo</string>
+    <string name="txt_txtmsg">Đăng ký thành công</string>
+    <string name="txt_msgupdateok">Update thành công</string>
+    <string name="txt_msgupdatefailed">Update Không thành công</string>
+    <string name="txt_msginsertok">Insert thành công</string>
+    <string name="txt_msginsertfailed">Insert không thành công</string>
+    <string name="txt_ttimage">Chọn ảnh mới</string>
+    <string name="txt_msgimage">Ảnh được chọn từ CAMERA hay FILE?</string>
+    <string name="txt_ttsua">Sửa dữ liệu</string>
+    <string name="txt_ttthem">Thêm dữ liệu</string>
+    <string name="txt_itemuser">User: </string>
+    <string name="txt_itemlogin">Log in: </string>
+    <string name="txt_itemlogout">Log out:</string>
+    <string name="txt_itemstatus">status:</string>
+    <string name="txt_itemmasv">Mã SV : </string>
+    <string name="txt_itemtensv">Tên SV : </string>
+    <string name="txt_itemsex">GT: </string>
+    <string name="txt_itemlop">Lớp : </string>
+</resources>

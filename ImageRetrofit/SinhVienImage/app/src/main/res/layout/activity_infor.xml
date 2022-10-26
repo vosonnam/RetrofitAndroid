@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".inforActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_image2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/lthongtin2"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_sv2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/noavatar"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="5dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lthongtin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="thong tin 2" />
+
+    <TextView
+        android:id="@+id/lmasv2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_image2"
+        android:text="@string/txt_lmasv" />
+
+    <EditText
+        android:id="@+id/txt_masv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_image2"
+        android:layout_toRightOf="@id/lmasv2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/ltensv2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_masv2"
+        android:text="Tên Sinh viên:" />
+
+    <EditText
+        android:id="@+id/txt_tensv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_masv2"
+        android:layout_toRightOf="@id/ltensv2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/lgioitinh2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_tensv2"
+        android:text="@string/txt_lgioitinh" />
+
+    <RadioGroup
+        android:id="@+id/gradio_sex2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_tensv2"
+        android:layout_toRightOf="@id/lgioitinh2"
+        android:checkedButton="@id/btnradio_nam2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btnradio_nam2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/btnradio_nu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nữ" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/llop2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gradio_sex2"
+        android:text="@string/txt_llop" />
+
+    <Spinner
+        android:id="@+id/spinner_lop2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gradio_sex2"
+        android:layout_toRightOf="@id/llop2"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/spinner_lop2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_luu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_btnluu"
+            app:cornerRadius="8dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_lamlai2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/txt_btnlamlai"
+            app:cornerRadius="8dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
